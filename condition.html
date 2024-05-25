@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điều kiện</title>
+</head>
+
+<body>
+    <!-- 
+        1. câu điều kiện if-else(nếu-thì)
+        +cú pháp
+        if(điều kiện){
+            //phần thực thi
+        }else{
+            //phần thực thi
+        }
+        2. câu điều kiện if-else lồng
+     -->
+    <script>
+        let age = 18;
+        let name = "minh thu";
+        // in ra câu xin chao minh thu năm nay 18 tuổi
+        //dùng dấu literal - template string
+        //falsy và truthy
+        //falsy gồm các giá trị sau
+        /*
+            falsy gồm các giá trị sau:
+            0,null,NaN,underfind, false,"",''
+            trythy không phải là falsy
+        */
+        console.log(`xin chào ${name} năm nay ${age} tuổi`);
+        if (age >= 18) {
+            console.log("bạn đã đủ 18 tuổi");
+        } else {
+            console.log("bạn không đủ 18 tuổi!");
+        }
+        if (5) {
+            console.log("5")
+        } else {
+            console.log("không thoã mãn")
+        }
+    </script>
+</body>
+
+</html>
